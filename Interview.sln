@@ -7,13 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview", "Interview\Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.Tests", "Interview.Tests\Interview.Tests.csproj", "{769D8BBC-E5E1-4173-8AB6-A5D16FD491D0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_exercise", "1_exercise", "{AD5D163F-0FE8-4067-83A9-1DA0B2093D64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_exercise", "2_exercise", "{7D3A9F7B-A533-4A1C-B679-EAE320983BF1}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{87C1DD9C-EFBD-49DD-AE35-D37A24B859C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{769D8BBC-E5E1-4173-8AB6-A5D16FD491D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{769D8BBC-E5E1-4173-8AB6-A5D16FD491D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{769D8BBC-E5E1-4173-8AB6-A5D16FD491D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87C1DD9C-EFBD-49DD-AE35-D37A24B859C2} = {AD5D163F-0FE8-4067-83A9-1DA0B2093D64}
+		{769D8BBC-E5E1-4173-8AB6-A5D16FD491D0} = {AD5D163F-0FE8-4067-83A9-1DA0B2093D64}
 	EndGlobalSection
 EndGlobal

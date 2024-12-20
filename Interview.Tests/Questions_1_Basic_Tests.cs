@@ -2,7 +2,7 @@ using FluentAssertions;
 
 namespace Interview.Tests;
 
-public class QuestionsTests
+public class Questions_1_Basic_Tests
 {
     [Theory]
     [InlineData("hello", "olleh")]
@@ -10,7 +10,7 @@ public class QuestionsTests
     [InlineData("step on no pets", "step on no pets")]
     public void ReverseString_Should_Reverse_InputString(string input, string expected)
     {
-        var result = Questions.RevervseString(input);
+        var result = Questions_1_Basic.RevervseString(input);
 
         result.Should().Be(expected);
     }
@@ -19,7 +19,7 @@ public class QuestionsTests
     [MemberData(nameof(CharData))]
     public void CharCount_Should_Count_Each_Char(string input, Dictionary<char, int> expected)
     {
-        var result = Questions.CharCount(input);
+        var result = Questions_1_Basic.CharCount(input);
 
         result.Should().BeEquivalentTo(expected);
     }
